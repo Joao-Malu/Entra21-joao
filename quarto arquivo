@@ -1,0 +1,174 @@
+        console.log(!10) //false
+        console.log(!"string") //true 
+        console.log(!!2.3) //true 
+        console.log(Boolean (null)) //false 
+
+        console.log(10>2) // true
+        console.log(5 >= "5") // true 
+        console.log(5 >= "5") // true
+        console.log("apple" > "pineapple") // false 
+        console.log("2" > "12") // true 
+        console.log(undefined == null) // true 
+        console.log(undefined ===null) // false 
+        console.log(null == "\n0\n") // false 
+        console.log(null === +"\n0\n") // false 
+
+        let valorA = Number(prompt("digite o valor de A"))
+        if (valorA > 10) {
+            console.log("valoraA é maior que 10")
+        } 
+        console.log("programa finalizado")
+        let  numero =Number(prompt("Digite um numero"))
+        if(numero % 2 == 0) {
+        console.log (`${numero/2} este numero e par`) }
+        else(`${numero} este numero e impar`)
+        console.log('Programa Finalizado') 
+   
+   
+    let numero = Number(prompt("digite o numero"))
+    if( numero % 2 == 0) console.log("esse numero e par" ) 
+    else(console.log("esse numero e impar"))
+
+
+        let numero = Number(prompt("digite o numero"))
+    if( 20<numero && 90>numero ) console.log("esse numero esta entre 20 e 90" ) 
+    else(console.log("esse numero nao esta entre 20 e 90") )
+
+Boolean(A > 10 && B <= 20) // ? falso
+Boolean(A > 10 || B <= 20) // ? true
+Boolean((A === 10 || B > 20) && B === 20) // ? true
+console.log(null || 2 || undefined) // ? 2
+Boolean(0 && 1) // ?falso
+
+
+    let numero1 = Number(prompt("digite o numero"))
+    let numero2 = Number(prompt("digite o numero"))
+    let numero3 = Number(prompt("digite o numero"))
+    if (numero1 >= numero2 && numero1 >=numero3) console.log(`${numero1} e maior numero`)
+    if (numero2 > numero1 &&  numero2 >= numero3) console.log(`${numero2} e maior numero`)
+    if (numero3 > numero2 && numero3> numero1) console.log(`${numero3} e maior numero`)
+
+
+            let a = Number(prompt("digite o numero"))
+        let b = Number(prompt("digite o numero"))
+
+        let resultado = Boolean(a + b < 4)
+        resultado == true ? console.log("Abaixo") : console.log ("Acima") 
+
+
+        let lado1 = Number(prompt("digite o numero"))
+        let lado2 = Number(prompt("digite o numero"))
+        let lado3 = Number(prompt("digite o numero"))
+        if (lado1 == lado2 && lado2 == lado3) console.log ("triangulo equilatero") 
+        else if (lado1 == lado2 || lado2 == lado3 || lado3 == lado1) console.log ("triangulo isoceles")
+        else (console.log ("triangulo escaleno"))
+
+        let lado1 = Number(prompt("digite o numero"))
+        if(lado1 >= 0) console.log(Math.sqrt(lado1))
+        else console.log ("numero invalido")
+
+let numero = prompt("numero6")
+if(numero > 0) console.log (Math.sqrt(numero))
+else(console.log(numero**2))
+
+
+let Salario = Number (prompt("insira o salario"))
+let Prestacao = Number (prompt("insira prestacao"))
+let parteSalario = Salario / 5
+if ( parteSalario < Prestacao) console.log ("emprestimo nao concedido")
+else (console.log("Emprestimo concedido"))
+
+
+let numero = Number (prompt("insira o numero"))
+switch(numero){
+    case 1: 
+    console.log("domingo") 
+    break
+    case 2:
+    console.log("segunda feira")
+    break
+    case 3:
+    console.log("terca feira")
+    break
+    case 4:
+    console.log("quarta feira") 
+    break
+    case 5:
+    console.log("quinta feira") 
+    break
+    case 6:
+    console.log("sexta feira") 
+    break
+    case 7:
+    console.log("sabado ") 
+    break
+    default:
+    console.log("invalido")
+}
+
+
+let numero = Number (prompt("insira o numero"))
+switch(numero){
+    case 1: 
+    console.log("janeiro") 
+    break
+    case 2:
+    console.log("fevereiro")
+    break
+    case 3:
+    console.log("marco")
+    break
+    case 4:
+    console.log("abril") 
+    break
+    case 5:
+    console.log("maio") 
+    break
+    case 6:
+    console.log("junho") 
+    break
+    case 7:
+    console.log("julho") 
+    break
+    case 8:
+    console.log("agosto") 
+    break
+    case 9:
+    console.log("setembro") 
+    break
+    case 10:
+    console.log("outubro") 
+    break
+    case 11:
+    console.log("novembro") 
+    break
+    case 12:
+    console.log("dezembro") 
+    break
+    default:
+    console.log("invalido")
+}
+
+
+        let numero = prompt("insira o numero")
+        if (numero % 5 == 0) console.log (" e divisivel por 5")
+else (console.log("nao divisivel"))
+
+
+            let gols1 = Number(prompt("numero de gols do primeiro tempo"))
+            let gols2 = Number(prompt("numero de gols do segundo tempo"))
+            if (gols1 == gols2 )console.log (" empate")
+            else if (gols2 < gols1 )console.log ("vitoria do primeiro tempo")
+            else (console.log("vitoria do segundo tempo"))
+
+            let idade = Number(prompt("digite sua idade"))
+            
+            if (idade < 16 )console.log ("nao precisa ")
+            else if (idade >= 18 && idade < 60 )console.log ("voto obrigatorio")
+            else (console.log("voto opcional"))
+
+
+            let idade = Number(prompt("digite sua idade"))
+            
+            if (idade < 18 || idade > 67 )console.log ("nao doador")
+            else console.log ("pode ser doador ")

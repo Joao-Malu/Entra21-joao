@@ -7,40 +7,19 @@
 </head>
 <body>
     <script>
-        console.log(!10) //false
-        console.log(!"string") //true 
-        console.log(!!2.3) //true 
-        console.log(Boolean (null)) //false 
+        
+        /*Para doar sangue é necessário ter entre 18 e 67 anos. Faça um roteiro que pergunte a idade de uma 
+        pessoa e diga se ela pode doar sangue ou não. Use o operador lógicos OU (||).*/
 
-        console.log(10>2) // true
-        console.log(5 >= "5") // true 
-        console.log(5 >= "5") // true
-        console.log("apple" > "pineapple") // false 
-        console.log("2" > "12") // true 
-        console.log(undefined == null) // true 
-        console.log(undefined ===null) // false 
-        console.log(null == "\n0\n") // false 
-        console.log(null === +"\n0\n") // false 
+            let idade = Number(prompt("digite sua idade"))
+            
+            if (idade < 18 || idade > 67 )console.log ("nao doador")
+            else console.log ("pode ser doador ")
 
-        let valorA = Number(prompt("digite o valor de A"))
-        if (valorA > 10) {
-            console.log("valoraA é maior que 10")
-        } 
-        console.log("programa finalizado")
     </script>
 </body>
 </html>
-     <script>   
-        let  numero =Number(prompt("Digite um numero"))
-        if(numero % 2 == 0) {
-        let aux = numero
-        numero = numero / 2
-        console.log ('Entrada:                  Saida:\n') 
-        console.log('${aux}           Este número é par')
-        console.log('A metade de ${aux} é ${numero}') 
-        console.log('Programa Finalizado') 
-        else
-        console.log('Entrada:                       Saida:\n')
-        console.log('$ número            Este número é impar') 
-        console.log(Programa Finalizado) 
+ 
+        
+
 

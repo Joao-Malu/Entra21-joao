@@ -46,18 +46,6 @@ Entrada:         Saída:
                  Programa finalizado...
 
 9                Programa finalizado...
-let  numero =Number(prompt("Digite um numero"))
-if(numero % 2 == 0) {
-let aux = numero
-        numero = numero / 2
-        console.log ('Entrada:                  Saida:\n') 
-        console.log('${aux}           Este número é par')
-        console.log('A metade de ${aux} é ${numero}') 
-console.log('Programa Finalizado') 
- else
-        console.log('Entrada:                       Saida:\n')
-        console.log('$ número            Este número é impar') 
-console.log(Programa Finalizado)
 5) Escreva um script que receba um número, se esse número for par mostre na tela
 "O número é par" senão mostre "O número é ímpar".
 Entrada:         Saída:
